@@ -6,8 +6,7 @@ import java.io.DataInputStream;
 public class Clientlist implements Runnable{
 
     Map map ;
-    public Clientlist(Map map)
-    {
+    public Clientlist(Map map){
         this.map = map ;
     }
     @Override
