@@ -7,7 +7,7 @@ public class Clientlist implements Runnable{
 
     Map map ;
     public Clientlist(Map map){
-        this.map = map ;
+        this.map = map;
     }
     @Override
     public void run() {
