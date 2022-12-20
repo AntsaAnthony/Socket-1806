@@ -13,7 +13,9 @@ public class MouseList implements MouseListener{
         this.terrain=terrain;
     }
     public void mouseReleased(MouseEvent e){
-        shooting(e,ball);
+        if(ball.isBouge()==false){
+            shooting(e,ball);
+        }
     }
     public void shooting(MouseEvent e,Ball b )
     {
